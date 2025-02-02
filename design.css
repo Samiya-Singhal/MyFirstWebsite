@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(247, 255, 213);
+}
+
+header {
+    background-color: rgb(45, 134, 69);
+    border-radius: 7px;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+.navbar li a:hover {
+    color: orange;
+}
+
+.navbar ul {
+    overflow: auto;
+    position: fixed;
+    top: 5px;
+    right: 20px;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 0px 9px;
+}
+
+.navbar li a {
+    padding: 1px 0px;
+    text-decoration: none;
+    color: rgb(197, 194, 152);
+}
+
+header h1 {
+    position: fixed;
+    top: -11px;
+    left: 15px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div {
+    margin-top: 20px;
+    margin-left: 0px;
+    text-align: center;
+
+}
+
+button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#intro {
+    background-color: rgb(168, 207, 156);
+}
+
+#feat {
+    display: flex;
+}
+
+.item {
+    height: 300px;
+    width: 230px;
+    background-color: rgb(99, 166, 99);
+    border: 3px solid black;
+    margin: 20px;
+    font-family: cursive;
+}
+
+.item:hover {
+    box-shadow: 6px 6px 5px 3px rgb(58, 55, 55);
+}
+
+#cat {
+    display: flex;
+}
+
+.items {
+    height: 300px;
+    width: 230px;
+    background-color: rgb(99, 166, 99);
+    border: 3px solid black;
+    margin: 20px;
+    font-family: cursive;
+}
+
+#cats {
+    display: flex;
+}
+
+.head {
+    height: 30px;
+    width: 230px;
+    background-color: rgb(99, 166, 99);
+    border: 3px solid black;
+    margin: 20px;
+    font-family: cursive;
+    font-size: larger;
+}
+
+body div select {
+    background-color: rgb(207, 148, 168);
+    border-radius: 10px;
+    height: 30px;
+    width: 220px;
+    border: 2px solid black;
+    font-family: cursive;
+    font-size: medium;
+    text-align: center;
+}
+
+body div select option {
+    font-weight: bold;
+}
+
+#myst {
+    background-color: rgb(170, 56, 56);
+}
+
+body div select:hover {
+    font-weight: 900;
+}
+
+#sf {
+    background-color: rgb(83, 248, 248);
+}
+
+#rom {
+    background-color: rgb(213, 192, 127);
+}
+
+#rev {
+    text-align: left;
+}    
+
+#rev form textarea {
+    margin-top: 100px;
+}
